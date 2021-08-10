@@ -1,7 +1,7 @@
 package org.junit;
 import java.util.stream.DoubleStream;
 
-public class HesapMakinasi {
+public class C01HesapMakinasi {
      static double topla(double... sayilar ){
         return DoubleStream.of(sayilar).sum();
     }
